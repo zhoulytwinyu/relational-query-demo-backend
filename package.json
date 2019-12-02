@@ -1,0 +1,18 @@
+{
+  "name": "relational-query-demo-backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "initdb": "node utils/init-database.js",
+    "start": "node index.js"
+  },
+  "author": "Lingyu Zhou",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "relational-query-sql-builder": "zhoulytwinyu/relational-query-sql-builder#branch/sqlite3-optimized",
+    "sqlite-async": "^1.0.12"
+  }
+}
